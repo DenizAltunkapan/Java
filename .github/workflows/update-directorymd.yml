@@ -2,7 +2,7 @@ name: Generate Directory Markdown
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -19,7 +19,8 @@ jobs:
         uses: DenizAltunkapan/directory-tree-generator@v1
         with:
           path: src
-          extensions: .
+          extensions: java
+          show-extensions: false
 
       - name: Commit and Push DIRECTORY.md
         run: |
