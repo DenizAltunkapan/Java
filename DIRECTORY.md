@@ -5,7 +5,7 @@
     - 📁 **com**
       - 📁 **thealgorithms**
         - 📁 **audiofilters**
-          - 📄 [EMAFilter](src/main/java/com/thealgorithms/audiofilters/EMAFilter.java)
+          - 📄 [EMAFilterr](src/main/java/com/thealgorithms/audiofilters/EMAFilterr.java)
           - 📄 [IIRFilter](src/main/java/com/thealgorithms/audiofilters/IIRFilter.java)
         - 📁 **backtracking**
           - 📄 [AllPathsFromSourceToTarget](src/main/java/com/thealgorithms/backtracking/AllPathsFromSourceToTarget.java)
