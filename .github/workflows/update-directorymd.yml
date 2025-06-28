@@ -20,7 +20,7 @@ jobs:
         with:
           path: src
           extensions: .
-          show-extensions: false
+          show-extensions: "false"
 
       - name: Commit and Push DIRECTORY.md
         run: |
