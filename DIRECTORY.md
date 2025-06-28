@@ -163,10 +163,12 @@
             - 📄 [Kruskal.java](src/main/java/com/thealgorithms/datastructures/graphs/Kruskal.java)
             - 📄 [MatrixGraphs.java](src/main/java/com/thealgorithms/datastructures/graphs/MatrixGraphs.java)
             - 📄 [PrimMST.java](src/main/java/com/thealgorithms/datastructures/graphs/PrimMST.java)
+            - 📄 [README.md](src/main/java/com/thealgorithms/datastructures/graphs/README.md)
             - 📄 [TarjansAlgorithm.java](src/main/java/com/thealgorithms/datastructures/graphs/TarjansAlgorithm.java)
             - 📄 [UndirectedAdjacencyListGraph.java](src/main/java/com/thealgorithms/datastructures/graphs/UndirectedAdjacencyListGraph.java)
             - 📄 [WelshPowell.java](src/main/java/com/thealgorithms/datastructures/graphs/WelshPowell.java)
           - 📁 **hashmap**
+            - 📄 [Readme.md](src/main/java/com/thealgorithms/datastructures/hashmap/Readme.md)
             - 📁 **hashing**
               - 📄 [GenericHashMapUsingArray.java](src/main/java/com/thealgorithms/datastructures/hashmap/hashing/GenericHashMapUsingArray.java)
               - 📄 [GenericHashMapUsingArrayList.java](src/main/java/com/thealgorithms/datastructures/hashmap/hashing/GenericHashMapUsingArrayList.java)
@@ -190,6 +192,7 @@
             - 📄 [MergeKSortedArrays.java](src/main/java/com/thealgorithms/datastructures/heaps/MergeKSortedArrays.java)
             - 📄 [MinHeap.java](src/main/java/com/thealgorithms/datastructures/heaps/MinHeap.java)
             - 📄 [MinPriorityQueue.java](src/main/java/com/thealgorithms/datastructures/heaps/MinPriorityQueue.java)
+            - 📄 [Readme.md](src/main/java/com/thealgorithms/datastructures/heaps/Readme.md)
           - 📁 **lists**
             - 📄 [CircleLinkedList.java](src/main/java/com/thealgorithms/datastructures/lists/CircleLinkedList.java)
             - 📄 [CountSinglyLinkedListRecursion.java](src/main/java/com/thealgorithms/datastructures/lists/CountSinglyLinkedListRecursion.java)
@@ -200,6 +203,7 @@
             - 📄 [MergeSortedArrayList.java](src/main/java/com/thealgorithms/datastructures/lists/MergeSortedArrayList.java)
             - 📄 [MergeSortedSinglyLinkedList.java](src/main/java/com/thealgorithms/datastructures/lists/MergeSortedSinglyLinkedList.java)
             - 📄 [QuickSortLinkedList.java](src/main/java/com/thealgorithms/datastructures/lists/QuickSortLinkedList.java)
+            - 📄 [README.md](src/main/java/com/thealgorithms/datastructures/lists/README.md)
             - 📄 [RandomNode.java](src/main/java/com/thealgorithms/datastructures/lists/RandomNode.java)
             - 📄 [ReverseKGroup.java](src/main/java/com/thealgorithms/datastructures/lists/ReverseKGroup.java)
             - 📄 [RotateSinglyLinkedLists.java](src/main/java/com/thealgorithms/datastructures/lists/RotateSinglyLinkedLists.java)
@@ -216,10 +220,12 @@
             - 📄 [PriorityQueues.java](src/main/java/com/thealgorithms/datastructures/queues/PriorityQueues.java)
             - 📄 [Queue.java](src/main/java/com/thealgorithms/datastructures/queues/Queue.java)
             - 📄 [QueueByTwoStacks.java](src/main/java/com/thealgorithms/datastructures/queues/QueueByTwoStacks.java)
+            - 📄 [README.md](src/main/java/com/thealgorithms/datastructures/queues/README.md)
             - 📄 [SlidingWindowMaximum.java](src/main/java/com/thealgorithms/datastructures/queues/SlidingWindowMaximum.java)
             - 📄 [TokenBucket.java](src/main/java/com/thealgorithms/datastructures/queues/TokenBucket.java)
           - 📁 **stacks**
             - 📄 [NodeStack.java](src/main/java/com/thealgorithms/datastructures/stacks/NodeStack.java)
+            - 📄 [README.md](src/main/java/com/thealgorithms/datastructures/stacks/README.md)
             - 📄 [ReverseStack.java](src/main/java/com/thealgorithms/datastructures/stacks/ReverseStack.java)
             - 📄 [Stack.java](src/main/java/com/thealgorithms/datastructures/stacks/Stack.java)
             - 📄 [StackArray.java](src/main/java/com/thealgorithms/datastructures/stacks/StackArray.java)
@@ -251,6 +257,7 @@
             - 📄 [PreOrderTraversal.java](src/main/java/com/thealgorithms/datastructures/trees/PreOrderTraversal.java)
             - 📄 [PrintTopViewofTree.java](src/main/java/com/thealgorithms/datastructures/trees/PrintTopViewofTree.java)
             - 📄 [QuadTree.java](src/main/java/com/thealgorithms/datastructures/trees/QuadTree.java)
+            - 📄 [README.md](src/main/java/com/thealgorithms/datastructures/trees/README.md)
             - 📄 [RedBlackBST.java](src/main/java/com/thealgorithms/datastructures/trees/RedBlackBST.java)
             - 📄 [SameTreesCheck.java](src/main/java/com/thealgorithms/datastructures/trees/SameTreesCheck.java)
             - 📄 [SegmentTree.java](src/main/java/com/thealgorithms/datastructures/trees/SegmentTree.java)
@@ -738,6 +745,7 @@
           - 📄 [ValidParentheses.java](src/main/java/com/thealgorithms/strings/ValidParentheses.java)
           - 📄 [WordLadder.java](src/main/java/com/thealgorithms/strings/WordLadder.java)
           - 📁 **zigZagPattern**
+            - 📄 [README.md](src/main/java/com/thealgorithms/strings/zigZagPattern/README.md)
             - 📄 [ZigZagPattern.java](src/main/java/com/thealgorithms/strings/zigZagPattern/ZigZagPattern.java)
         - 📁 **tree**
           - 📄 [HeavyLightDecomposition.java](src/main/java/com/thealgorithms/tree/HeavyLightDecomposition.java)
