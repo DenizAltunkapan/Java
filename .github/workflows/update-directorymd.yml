@@ -19,8 +19,8 @@ jobs:
         uses: DenizAltunkapan/directory-tree-generator@v2
         with:
           path: src
-          extensions: .
-          show-extensions: "false"
+          extensions: .java
+          show-extensions: false
 
       - name: Commit and Push DIRECTORY.md
         run: |
