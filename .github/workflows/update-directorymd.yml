@@ -15,6 +15,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Create new branch
+        env:
+          BRANCH_NAME: update-directory-md-${{ github.run_id }}
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git checkout -b $BRANCH_NAME
+
       - name: Run Directory Tree Generator
         uses: DenizAltunkapan/directory-tree-generator@v2
         with:
@@ -22,15 +30,10 @@ jobs:
           extensions: .java
           show-extensions: false
 
-      - name: Create branch, commit changes and open pull request
+      - name: Commit and push changes
         env:
           BRANCH_NAME: update-directory-md-${{ github.run_id }}
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-
-          git checkout -b $BRANCH_NAME
-
           git add DIRECTORY.md
           git commit -m "chore: update DIRECTORY.md" || echo "No changes to commit"
           git push origin $BRANCH_NAME
