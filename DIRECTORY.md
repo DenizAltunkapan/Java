@@ -9,7 +9,7 @@
           - 📄 [IIRFilter](src/main/java/com/thealgorithms/audiofilters/IIRFilter.java)
         - 📁 **backtracking**
           - 📄 [AllPathsFromSourceToTarget](src/main/java/com/thealgorithms/backtracking/AllPathsFromSourceToTarget.java)
-          - 📄 [ArrayCombination](src/main/java/com/thealgorithms/backtracking/ArrayCombination.java)
+          - 📄 [ArrayCombinatioon](src/main/java/com/thealgorithms/backtracking/ArrayCombinatioon.java)
           - 📄 [Combination](src/main/java/com/thealgorithms/backtracking/Combination.java)
           - 📄 [CrosswordSolver](src/main/java/com/thealgorithms/backtracking/CrosswordSolver.java)
           - 📄 [FloodFill](src/main/java/com/thealgorithms/backtracking/FloodFill.java)
