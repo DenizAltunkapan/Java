@@ -1,9 +1,9 @@
 name: Generate Directory Markdown
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,7 +12,7 @@ jobs:
   generate-directory:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout target repo
         uses: actions/checkout@v4
 
       - name: Create new branch
@@ -23,19 +23,20 @@ jobs:
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git checkout -b $BRANCH_NAME
 
-      - name: Run Directory Tree Generator
-        uses: DenizAltunkapan/directory-tree-generator@v2
-        with:
-          path: src
-          extensions: .java
-          show-extensions: false
+      - name: Clone Directory Generator
+        run: |
+          git clone https://github.com/DenizAltunkapan/directory-tree-generator.git tools/dtg
+          node tools/dtg/src/index.js --path src --extensions .java
 
-      - name: Commit and push changes
+      - name: Show changes (debug)
+        run: git diff || echo "No changes"
+
+      - name: Commit and push
         env:
           BRANCH_NAME: update-directory-md-${{ github.run_id }}
         run: |
           git add DIRECTORY.md
-          git commit -m "chore: update DIRECTORY.md" || echo "No changes to commit"
+          git commit -m "chore: update DIRECTORY.md" || echo "Nothing to commit"
           git push origin $BRANCH_NAME
 
       - name: Create Pull Request
